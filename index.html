@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+            <title>CORE_ENCODED | Arduino & ESP32</title>
+                <link rel="stylesheet" href="css.css">
+                </head> 
+                <body>
+                    <header>
+                            <div class="logo">CORE_ENCODED <span class="version-tag">v2.5</span></div>
+                                    <div class="search-box">
+                                                <input type="text" id="search-input" placeholder="Search hardware database..." onkeyup="searchDatabase()">
+                                                        </div>
+                                                                <nav class="top-nav">
+                                                                            <button onclick="loadTopic('home')" class="nav-btn active">Home</button>
+                                                                                        <button onclick="loadTopic('boards')" class="nav-btn">Boards</button>
+                                                                                                    <button onclick="loadTopic('functions')" class="nav-btn">Reference</button>
+                                                                                                                <button onclick="loadTopic('esp32')" class="nav-btn">ESP32</button>
+                                                                                                                            <button onclick="loadTopic('sensors')" class="nav-btn">Sensors</button>
+                                                                                                                                    </nav>
+                                                                                                                                        </header>
+
+                                                                                                                                            <div class="main-container">
+                                                                                                                                                    <aside class="sidebar">
+                                                                                                                                                                <h3 class="sidebar-title">Registers</h3>
+                                                                                                                                                                            <ul id="sidebar-list"></ul>
+                                                                                                                                                                                    </aside>
+                                                                                                                                                                                            <main id="content-display">
+                                                                                                                                                                                                        <div class="welcome-screen">
+                                                                                                                                                                                                                        <div class="glow"></div>
+                                                                                                                                                                                                                                        <h1>System Ready</h1>
+                                                                                                                                                                                                                                                        <p>Welcome to the <b>Hardware Encyclopedia</b>.</p>
+                                                                                                                                                                                                                                                                        <p>100% Offline | Zero Image Dependencies</p>
+                                                                                                                                                                                                                                                                                        <div class="status-box">LOG: ALL_SYSTEMS_GO</div>
+                                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                                            </main>
+                                                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                                                    <script src="js.js"></script>
+                                                                                                                                                                                                                                                                                                                    </body>
+                                                                                                                                                                                                                                                                                                                    </html>
+                                                                                                                                                                                                                                                                                                                    
